@@ -24,9 +24,9 @@ function Footer() {
         <div>
           <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-school-yellow">Facebook</a>
-            <a href="#" className="hover:text-school-yellow">Twitter</a>
-            <a href="#" className="hover:text-school-yellow">Instagram</a>
+            <a href="https://facebook.com/aicsengani" target="_blank" rel="noopener noreferrer" className="hover:text-school-yellow">Facebook</a>
+            <a href="https://twitter.com/aicsengani" target="_blank" rel="noopener noreferrer" className="hover:text-school-yellow">Twitter</a>
+            <a href="https://instagram.com/aicsengani" target="_blank" rel="noopener noreferrer" className="hover:text-school-yellow">Instagram</a>
           </div>
         </div>
       </div>
