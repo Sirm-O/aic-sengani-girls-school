@@ -2,21 +2,29 @@ import React from 'react';
 import { FaTrophy, FaBook, FaGraduationCap } from 'react-icons/fa';
 
 function Achievements() {
+  const imageGallery = [
+    '/images/school-gallery/ksef-2025/IMG_6425(1).jpg',
+    '/images/school-gallery/ksef-2025/IMG_6444.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6500.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6525.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6582.jpg'
+  ];
+
   const achievements = [
     {
       icon: <FaTrophy className="text-4xl text-school-blue mb-4" />,
-      title: "Academic Excellence",
-      description: "Consistently ranked among top performers in Machakos County, with a strong track record of students qualifying for top universities."
+      title: "Kenya Science & Engineering Fair 2025",
+      description: "Emerged 2nd nationwide! All 4 project categories topped the Eastern Region, making Sengani the only school in the region to win a national trophy."
     },
     {
       icon: <FaBook className="text-4xl text-school-green mb-4" />,
-      title: "Comprehensive Curriculum",
-      description: "Offering a holistic education approach that balances academic rigor with personal development and extracurricular activities."
+      title: "STEM Leadership",
+      description: "Exceptional performance in Environmental Science, Technology, Applied Technology, and Energy & Transportation categories."
     },
     {
       icon: <FaGraduationCap className="text-4xl text-school-yellow mb-4" />,
-      title: "University Preparedness",
-      description: "Our students have an impressive record of university admissions, with many pursuing careers in medicine, engineering, and other professional fields."
+      title: "Innovation Pioneers",
+      description: "Demonstrating cutting-edge research and problem-solving skills at the national level, setting new standards in scientific innovation."
     }
   ];
 
@@ -37,6 +45,21 @@ function Achievements() {
           Our commitment to academic excellence is reflected in our students' consistent performance 
           and their ability to excel in national examinations.
         </p>
+      </div>
+
+      <div className="container mx-auto px-4 py-12">
+        <h3 className="text-2xl font-bold text-center text-school-blue mb-8">KSEF 2025 Award Ceremony Gallery</h3>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+          {imageGallery.map((image, index) => (
+            <div key={index} className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+              <img 
+                src={image} 
+                alt={`KSEF 2025 Award Ceremony - Image ${index + 1}`} 
+                className="w-full h-48 object-cover hover:scale-110 transition-transform"
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
