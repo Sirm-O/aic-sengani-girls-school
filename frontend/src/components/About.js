@@ -9,9 +9,13 @@ function About() {
         <div>
           <h2 className="text-2xl font-semibold text-school-green mb-4">Our History</h2>
           <p className="text-gray-700 mb-4">
-            AIC Sengani Girls School is an Extra County level Secondary school located in Matungulu Sub-County, 
-            Machakos County. We are committed to providing high-quality education that empowers young women 
+            AIC Sengani Girls School is a prestigious Extra County level Girls Boarding Secondary School located in Tala town, 
+            Matungulu Sub-County, Machakos County. With an estimated student population of 840-960 and a dedicated faculty 
+            of 28 educators, we are committed to providing high-quality education that empowers young women 
             to become leaders and change-makers in their communities.
+
+            Our school's motto, "Rubies, Diamond and Gold are Winners", reflects our belief in the extraordinary 
+            potential of every student to shine brightly and achieve greatness.
           </p>
         </div>
 
