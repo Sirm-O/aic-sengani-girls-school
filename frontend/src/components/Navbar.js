@@ -13,9 +13,10 @@ function Navbar() {
         <div className="hidden md:flex space-x-6">
           <Link to="/" className="hover:text-school-yellow">Home</Link>
           <Link to="/about" className="hover:text-school-yellow">About</Link>
-          <Link to="/academics" className="hover:text-school-yellow">Academics</Link>
-          <Link to="/admissions" className="hover:text-school-yellow">Admissions</Link>
-          <Link to="/contact" className="hover:text-school-yellow">Contact</Link>
+          <li><Link to="/academics" className="hover:text-school-yellow">Academics</Link></li>
+          <li><Link to="/admissions" className="hover:text-school-yellow">Admissions</Link></li>
+          <li><Link to="/achievements" className="hover:text-school-yellow">Achievements</Link></li>
+          <li><Link to="/contact" className="hover:text-school-yellow">Contact</Link></li>
         </div>
 
         <div className="md:hidden">

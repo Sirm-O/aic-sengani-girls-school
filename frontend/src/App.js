@@ -6,6 +6,7 @@ import About from './components/About';
 import Academics from './components/Academics';
 import Admissions from './components/Admissions';
 import Contact from './components/Contact';
+import Achievements from './components/Achievements';
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/academics" element={<Academics />} />
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/achievements" element={<Achievements />} />
         </Routes>
         <Footer />
       </div>
