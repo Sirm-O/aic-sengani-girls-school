@@ -26,16 +26,19 @@ function About() {
       </div>
 
       <div className="mt-8">
-        <h2 className="text-2xl font-semibold text-school-green mb-4">School Leadership</h2>
-        <div className="bg-white p-6 rounded-lg shadow-md">
-          <h3 className="text-xl font-bold text-school-blue mb-2">Principal</h3>
-          <p className="text-gray-700">
-            <strong>Stella Wambua</strong> leads our institution with a vision of excellence and empowerment. 
-            With years of experience in education, she is dedicated to creating an environment 
-            that supports student growth and achievement.
-          </p>
+        <h2 className="text-3xl font-bold mb-6 text-school-blue">Leadership</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <h3 className="text-xl font-semibold mb-4">Principal's Message</h3>
+            <p className="mb-4">Dear Students, Parents, and Guardians,</p>
+            <p>Welcome to AIC Sengani Girls School, where we are committed to providing exceptional education and holistic development for our students.</p>
+          </div>
+          <div className="bg-white p-6 rounded-lg shadow-md">
+            <img src="/path/to/principal-image.jpg" alt="School Principal" className="w-full h-64 object-cover rounded-lg mb-4" />
+            <h4 className="text-lg font-semibold">Dr. Margaret Mwendwa</h4>
+            <p className="text-gray-600">School Principal</p>
+          </div>
         </div>
-      </div>
 
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-school-green mb-4">Contact Information</h2>

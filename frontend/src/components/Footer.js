@@ -17,8 +17,8 @@ function Footer() {
         </div>
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
-          <p>Phone: (+254) 0714720727</p>
-          <p>Email: [email protected]</p>
+          <p>Phone: (+254) 723324518</p>
+          <p>Email: senganigirlsschool@gmail.com</p>
           <p>Location: Matungulu Sub-County, Machakos County</p>
         </div>
         <div>
