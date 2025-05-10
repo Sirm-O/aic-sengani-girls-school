@@ -37,7 +37,7 @@ function Home() {
           "At AIC Sengani Girls School, we believe in nurturing not just academic excellence, 
           but also character, leadership, and personal growth for every student."
           <br />
-          <span className="block mt-4 font-semibold">- Stella Wambua, School Principal</span>
+          <span className="block mt-4 font-semibold">- Dr. Margaret Mwendwa, School Principal</span>
         </blockquote>
       </div>
     </div>
