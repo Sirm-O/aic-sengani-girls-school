@@ -39,13 +39,14 @@ function About() {
             <p className="text-gray-600">School Principal</p>
           </div>
         </div>
+      </div>
 
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-school-green mb-4">Contact Information</h2>
         <div className="bg-white p-6 rounded-lg shadow-md">
           <p className="text-gray-700">
-            <strong>Phone:</strong> (+254) 0714720727<br />
-            <strong>Email:</strong> [email protected]<br />
+            <strong>Phone:</strong> (+254) 723324518<br />
+            <strong>Email:</strong> senganigirlsschool@gmail.com<br />
             <strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya
           </p>
         </div>
