@@ -11,8 +11,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f0f9ff;
-  color: #2c3e50;
+  background-color: #F5F5DC;
+  color: #3E2723;
 }
 
 /* Custom Scrollbar */
@@ -25,12 +25,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #159895;
+  background: #8B4513;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1a5f7a;
+  background: #D2691E;
 }
 
 /* Smooth Scroll Behavior */
