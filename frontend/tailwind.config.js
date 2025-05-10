@@ -6,13 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'school-primary': '#2C3E50',    // Dark Blue-Gray (professional)
-        'school-secondary': '#34495E',  // Lighter Blue-Gray
-        'school-accent': '#3498DB',     // Bright Blue (for highlights)
-        'school-background': '#FFFFFF', // Pure White
-        'school-text': '#2C3E50',       // Dark Blue-Gray
-        'school-light-text': '#34495E', // Slightly lighter text
-        'school-muted': '#7F8C8D'       // Soft Gray for less important text
+        'school-green': '#2ecc71',     // Bright Green
+        'school-blue': '#3498db',      // Bright Blue
+        'school-yellow': '#f1c40f',    // Bright Yellow
+        'school-background': '#ecf0f1', // Light Gray Background
+        'school-text': '#2c3e50'        // Dark Blue-Gray Text
       },
       fontFamily: {
         'sans': ['Montserrat', 'system-ui', 'sans-serif'],
