@@ -41,14 +41,12 @@ function About() {
             <img 
               src="/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg"
               onError={(e) => {
-                if (e.target.src !== '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg') {
-                  e.target.src = '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg';
-                } else if (e.target.src !== '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg') {
-                  e.target.src = '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg';
-                } else {
-                  e.target.src = '/logo192.png';
-                }
+                console.error('Image load error:', e.target.src);
+                e.target.src = '/logo192.png';
               }} 
+              onLoad={(e) => {
+                console.log('Image loaded successfully:', e.target.src);
+              }}
               alt="Dr. Margaret Mwendwa with Patron at KSEF 2025" 
               className="w-full h-96 object-cover object-center rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             />
