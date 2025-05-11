@@ -40,10 +40,15 @@ function About() {
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img 
               src="/images/school-gallery/ksef-2025/School principal.jpg"
-            onError={(e) => {
-              e.target.onerror = null;
-              e.target.src = '/logo192.png';
-            }} 
+              onError={(e) => {
+                if (e.target.src !== '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg') {
+                  e.target.src = '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg';
+                } else if (e.target.src !== '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg') {
+                  e.target.src = '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg';
+                } else {
+                  e.target.src = '/logo192.png';
+                }
+              }} 
               alt="Dr. Margaret Mwendwa, School Principal" 
               className="w-full h-96 object-cover object-center rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             />
