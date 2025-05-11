@@ -15,7 +15,7 @@ function Achievements() {
   const achievements = [
     {
       icon: <FaTrophy className="text-4xl text-school-blue mb-4" />,
-      title: "Kenya Science & Engineering Fair 2025",
+      title: "Kenya Science & Engineering Fair (KSEF)2025",
       description: "Emerged 2nd nationwide! All 4 project categories topped the Eastern Region, making Sengani the only school in the region to win a national trophy."
     },
     {
@@ -31,14 +31,26 @@ function Achievements() {
   ];
 
   return (
-    <div className="container mx-auto px-4 py-12 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center text-school-blue mb-12">Our Academic Achievements</h2>
-      <div className="grid md:grid-cols-3 gap-8">
+    <div className="container mx-auto px-4 py-12 bg-school-background">
+      <div className="text-center mb-12">
+        <h2 className="text-3xl font-bold text-school-text mb-4">Our Achievements</h2>
+        <p className="text-school-light-text max-w-2xl mx-auto">
+          Celebrating our remarkable success at the Kenya Science & Engineering Fair 2025
+        </p>
+      </div>
+
+      <div className="grid md:grid-cols-3 gap-6 mb-12">
         {achievements.map((achievement, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center hover:shadow-xl transition-all duration-300">
-            {achievement.icon}
-            <h3 className="text-xl font-semibold mb-4 text-school-green">{achievement.title}</h3>
-            <p className="text-gray-600">{achievement.description}</p>
+          <div 
+            key={index} 
+            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2"
+          >
+            <div className="text-center">
+              {achievement.icon}
+              <h3 className="text-xl font-semibold text-school-text mb-3">{achievement.title}</h3>
+              <p className="text-school-light-text">{achievement.description}</p>
+            </div>
+            {/* Description already included above */}
           </div>
         ))}
       </div>
