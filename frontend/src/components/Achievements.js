@@ -3,13 +3,17 @@ import { FaTrophy, FaBook, FaGraduationCap } from 'react-icons/fa';
 
 function Achievements() {
   const imageGallery = [
-    '/images/school-gallery/ksef-2025/Certificate awards.jpg',
-    '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg',
-    '/images/school-gallery/ksef-2025/Patron Mr. Ochieng presents the National Trophy.jpg',
-    '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg',
-    '/images/school-gallery/ksef-2025/The trophy.jpg',
-    '/images/school-gallery/ksef-2025/Young Scientist Pause for Photo with Patron.jpg',
-    '/images/school-gallery/ksef-2025/Young Scientists at Assembly.jpg'
+    '/images/school-gallery/ksef-2025/IMG_6425(1).jpg',
+    '/images/school-gallery/ksef-2025/IMG_6444.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6500.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6525.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6582.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6598.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6616.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6666.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6683.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6694.jpg',
+    '/images/school-gallery/ksef-2025/IMG_6698.jpg'
   ];
 
   const achievements = [
@@ -63,13 +67,20 @@ function Achievements() {
 
       <div className="container mx-auto px-4 py-12">
         <h3 className="text-2xl font-bold text-center text-school-blue mb-8">KSEF 2025 Award Ceremony Gallery</h3>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {imageGallery.map((image, index) => (
-            <div key={index} className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <div 
+              key={index} 
+              className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+            >
               <img 
                 src={image} 
-                alt={`KSEF 2025 Award Ceremony - Image ${index + 1}`} 
-                className="w-full h-48 object-cover hover:scale-110 transition-transform"
+                alt={`KSEF 2025 Achievement ${index + 1}`} 
+                className="w-full h-48 object-cover object-center hover:scale-110 transition-transform duration-300"
+                onError={(e) => { 
+                  e.target.onerror = null; 
+                  e.target.src = '/logo192.png'; 
+                }}
               />
             </div>
           ))}
