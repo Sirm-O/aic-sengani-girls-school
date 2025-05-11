@@ -39,7 +39,7 @@ function About() {
           </div>
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img 
-              src="/images/school-gallery/ksef-2025/School principal.jpg"
+              src="/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg"
               onError={(e) => {
                 if (e.target.src !== '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg') {
                   e.target.src = '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg';
@@ -49,7 +49,7 @@ function About() {
                   e.target.src = '/logo192.png';
                 }
               }} 
-              alt="Dr. Margaret Mwendwa, School Principal" 
+              alt="Dr. Margaret Mwendwa with Patron at KSEF 2025" 
               className="w-full h-96 object-cover object-center rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             />
           </div>
