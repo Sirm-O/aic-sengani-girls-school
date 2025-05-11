@@ -37,8 +37,14 @@ function About() {
             <p className="mb-4">Dear Students, Parents, and Guardians,</p>
             <p>Welcome to AIC Sengani Girls School, where we are committed to providing exceptional education and holistic development for our students.</p>
           </div>
+          <div className="md:w-1/2 mb-6 md:mb-0">
+            <img 
+              src="/images/school-gallery/ksef-2025/School principal.jpg" 
+              alt="Dr. Margaret Mwendwa, School Principal" 
+              className="w-full h-96 object-cover rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+            />
+          </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <img src="/path/to/principal-image.jpg" alt="School Principal" className="w-full h-64 object-cover rounded-lg mb-4" />
             <h4 className="text-lg font-semibold">Dr. Margaret Mwendwa</h4>
             <p className="text-gray-600">School Principal</p>
           </div>

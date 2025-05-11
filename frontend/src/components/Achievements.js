@@ -3,11 +3,13 @@ import { FaTrophy, FaBook, FaGraduationCap } from 'react-icons/fa';
 
 function Achievements() {
   const imageGallery = [
-    '/images/school-gallery/ksef-2025/IMG_6425(1).jpg',
-    '/images/school-gallery/ksef-2025/IMG_6444.jpg',
-    '/images/school-gallery/ksef-2025/IMG_6500.jpg',
-    '/images/school-gallery/ksef-2025/IMG_6525.jpg',
-    '/images/school-gallery/ksef-2025/IMG_6582.jpg'
+    '/images/school-gallery/ksef-2025/Certificate awards.jpg',
+    '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg',
+    '/images/school-gallery/ksef-2025/Patron Mr. Ochieng presents the National Trophy.jpg',
+    '/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg',
+    '/images/school-gallery/ksef-2025/The trophy.jpg',
+    '/images/school-gallery/ksef-2025/Young Scientist Pause for Photo with Patron.jpg',
+    '/images/school-gallery/ksef-2025/Young Scientists at Assembly.jpg'
   ];
 
   const achievements = [
