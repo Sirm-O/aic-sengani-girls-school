@@ -39,9 +39,13 @@ function About() {
           </div>
           <div className="md:w-1/2 mb-6 md:mb-0">
             <img 
-              src="/images/school-gallery/ksef-2025/School principal.jpg" 
+              src="/images/school-gallery/ksef-2025/School principal.jpg"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src = '/logo192.png';
+            }} 
               alt="Dr. Margaret Mwendwa, School Principal" 
-              className="w-full h-96 object-cover rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
+              className="w-full h-96 object-cover object-center rounded-lg shadow-lg hover:shadow-xl transition-all duration-300"
             />
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
