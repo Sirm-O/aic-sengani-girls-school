@@ -44,6 +44,7 @@ function Achievements() {
           Illuminating the path of scientific excellence at the Kenya Science & Engineering Fair 2025
         </p>
         <div className="w-full h-1 bg-cosmic-accent mx-auto mb-4" style={{maxWidth: '200px'}}></div>
+      </div>
 
       <div className="grid md:grid-cols-3 gap-6 mb-12">
         {achievements.map((achievement, index) => (
