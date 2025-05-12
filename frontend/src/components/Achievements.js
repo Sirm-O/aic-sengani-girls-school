@@ -46,35 +46,34 @@ function Achievements() {
         <div className="w-full h-1 bg-galaxy-accent mx-auto mb-4 animate-pulse" style={{maxWidth: '250px'}}></div>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-6 mb-12">
+      <div className="grid md:grid-cols-3 gap-8 mb-16">
         {achievements.map((achievement, index) => (
           <div 
             key={index} 
-            className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2"
+            className="bg-galaxy-surface p-8 rounded-lg shadow-2xl border border-galaxy-accent/20 hover:border-galaxy-accent/50 transition-all duration-300 transform hover:-translate-y-2"
           >
             <div className="text-center">
               {achievement.icon}
-              <h3 className="text-xl font-semibold text-school-text mb-3">{achievement.title}</h3>
-              <p className="text-school-light-text">{achievement.description}</p>
+              <h3 className="text-2xl font-semibold text-galaxy-text mb-4">{achievement.title}</h3>
+              <p className="text-galaxy-text/80 text-lg">{achievement.description}</p>
             </div>
-            {/* Description already included above */}
           </div>
         ))}
       </div>
       <div className="mt-12 text-center">
-        <p className="text-lg text-gray-700">
+        <p className="text-lg text-galaxy-text/80 max-w-3xl mx-auto">
           Our commitment to academic excellence is reflected in our students' consistent performance 
           and their ability to excel in national examinations.
         </p>
       </div>
 
       <div className="container mx-auto px-4 py-12">
-        <h3 className="text-2xl font-bold text-center text-school-blue mb-8">KSEF 2025 Award Ceremony Gallery</h3>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <h3 className="text-3xl font-bold text-center text-galaxy-text mb-12">KSEF 2025 Award Ceremony Gallery</h3>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
           {imageGallery.map((image, index) => (
             <div 
               key={index} 
-              className="overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
+              className="overflow-hidden rounded-lg shadow-2xl border border-galaxy-accent/20 hover:shadow-xl transition-all duration-300"
             >
               <img 
                 src={image} 

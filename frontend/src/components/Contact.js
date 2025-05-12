@@ -29,17 +29,17 @@ function Contact() {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-school-blue mb-8 text-center">Contact Us</h1>
+    <div className="container mx-auto px-4 py-16 bg-galaxy-deep min-h-screen">
+      <h1 className="text-5xl font-bold text-galaxy-text mb-12 text-center tracking-wide">Contact Us</h1>
       
       <div className="grid md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-semibold text-school-green mb-4">Contact Information</h2>
-          <div className="bg-white p-6 rounded-lg shadow-md text-gray-700">
-            <p className="mb-2"><strong>Phone:</strong> (+254) 0714720727</p>
-            <p className="mb-2"><strong>Email:</strong> [email protected]</p>
-            <p className="mb-2"><strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya</p>
-            <p className="mt-4">
+          <h2 className="text-2xl font-semibold text-galaxy-highlight mb-6">Contact Information</h2>
+          <div className="bg-galaxy-surface p-8 rounded-lg shadow-2xl border border-galaxy-accent/20 text-galaxy-text/80">
+            <p className="mb-3 text-lg"><strong>Phone:</strong> (+254) 0714720727</p>
+            <p className="mb-3 text-lg"><strong>Email:</strong> [email protected]</p>
+            <p className="mb-3 text-lg"><strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya</p>
+            <p className="mt-4 text-lg">
               We are always happy to hear from parents, students, and community members. 
               Feel free to reach out with any questions or inquiries.
             </p>
@@ -47,10 +47,10 @@ function Contact() {
         </div>
 
         <div>
-          <h2 className="text-2xl font-semibold text-school-green mb-4">Send Us a Message</h2>
-          <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md">
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="name">Full Name</label>
+          <h2 className="text-2xl font-semibold text-galaxy-highlight mb-6">Send Us a Message</h2>
+          <form onSubmit={handleSubmit} className="bg-galaxy-surface p-8 rounded-lg shadow-2xl border border-galaxy-accent/20">
+            <div className="mb-6">
+              <label className="block text-galaxy-text mb-3" htmlFor="name">Full Name</label>
               <input
                 type="text"
                 id="name"
@@ -58,11 +58,11 @@ function Contact() {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border rounded-lg"
+                className="w-full px-4 py-3 bg-galaxy-deep text-galaxy-text border border-galaxy-accent/20 rounded-lg focus:outline-none focus:border-galaxy-accent"
               />
             </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="email">Email</label>
+            <div className="mb-6">
+              <label className="block text-galaxy-text mb-3" htmlFor="email">Email</label>
               <input
                 type="email"
                 id="email"
@@ -70,11 +70,11 @@ function Contact() {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border rounded-lg"
+                className="w-full px-4 py-3 bg-galaxy-deep text-galaxy-text border border-galaxy-accent/20 rounded-lg focus:outline-none focus:border-galaxy-accent"
               />
             </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="subject">Subject</label>
+            <div className="mb-6">
+              <label className="block text-galaxy-text mb-3" htmlFor="subject">Subject</label>
               <input
                 type="text"
                 id="subject"
@@ -82,24 +82,24 @@ function Contact() {
                 value={formData.subject}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border rounded-lg"
+                className="w-full px-4 py-3 bg-galaxy-deep text-galaxy-text border border-galaxy-accent/20 rounded-lg focus:outline-none focus:border-galaxy-accent"
               />
             </div>
-            <div className="mb-4">
-              <label className="block text-gray-700 mb-2" htmlFor="message">Your Message</label>
+            <div className="mb-6">
+              <label className="block text-galaxy-text mb-3" htmlFor="message">Your Message</label>
               <textarea
                 id="message"
                 name="message"
                 value={formData.message}
                 onChange={handleChange}
                 required
-                className="w-full px-3 py-2 border rounded-lg"
+                className="w-full px-4 py-3 bg-galaxy-deep text-galaxy-text border border-galaxy-accent/20 rounded-lg focus:outline-none focus:border-galaxy-accent"
                 rows="4"
               ></textarea>
             </div>
             <button 
               type="submit" 
-              className="w-full bg-school-blue text-white py-2 rounded-lg hover:bg-school-green transition duration-300"
+              className="w-full bg-galaxy-accent text-galaxy-deep py-3 rounded-lg hover:bg-galaxy-highlight transition duration-300"
             >
               Send Message
             </button>
