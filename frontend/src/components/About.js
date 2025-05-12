@@ -14,7 +14,7 @@ function About() {
         </div>
         <div className="md:w-1/2">
           <img 
-            src="/images/school-gallery/ksef-2025/Prinicipal and Patron for KSEF.jpg"
+            src="/images/school-gallery/ksef-2025/Principal and Patron for KSEF.jpg"
             alt="Dr. Margaret Mwendwa with Patron at KSEF 2025"
             className="w-full h-96 object-cover object-center rounded-lg shadow-2xl border-4 border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 hover:scale-105"
             onError={(e) => {
