@@ -14,24 +14,7 @@ function About() {
         </div>
         <div className="md:w-1/2">
           <img 
-            src={(() => {
-              const imagePaths = [
-                '/images/school-gallery/ksef-2025/School principal.jpg',
-                '/images/school-gallery/ksef-2025/school principal.jpg',
-                '/images/school-gallery/ksef-2025/Principal and Patron for KSEF.jpg',
-                '/images/school-gallery/ksef-2025/Chool Principal with trophy.jpg'
-              ];
-              
-              for (let path of imagePaths) {
-                const img = new Image();
-                img.src = path;
-                if (img.complete && img.naturalWidth > 0) {
-                  return path;
-                }
-              }
-              
-              return '/logo192.png';
-            })()}
+            src="/images/school-gallery/ksef-2025/1.jpg"
             alt="Dr. Margaret Mwendwa with Patron at KSEF 2025"
             className="w-full h-96 object-contain object-center rounded-lg shadow-2xl border-4 border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 hover:scale-105 bg-galaxy-surface"
             onError={(e) => {
