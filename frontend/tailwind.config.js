@@ -6,13 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cosmic-primary': '#1A237E',     // Deep Indigo
-        'cosmic-secondary': '#283593',   // Darker Indigo
-        'cosmic-accent': '#7C4DFF',      // Vibrant Purple
-        'cosmic-background': '#121212',  // Deep Space Black
-        'cosmic-surface': '#1E1E1E',     // Slightly Lighter Black
-        'cosmic-text': '#E0E0E0',        // Light Gray
-        'cosmic-highlight': '#BB86FC'    // Soft Purple Highlight
+        'galaxy-deep': '#0D1117',        // Extremely Dark Background
+        'galaxy-surface': '#161B22',     // Slightly Lighter Dark Surface
+        'galaxy-primary': '#38BDAE',     // Alien Teal
+        'galaxy-secondary': '#2C3E50',   // Dark Blue-Gray
+        'galaxy-accent': '#10B981',      // Emerald Green
+        'galaxy-text': '#E6E6E6',        // Soft White
+        'galaxy-highlight': '#22D3EE'    // Bright Cyan
       },
       fontFamily: {
         'sans': ['Montserrat', 'system-ui', 'sans-serif'],

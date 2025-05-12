@@ -18,32 +18,32 @@ function Achievements() {
 
   const achievements = [
     {
-      icon: <FaTrophy className="text-4xl text-cosmic-accent mb-4" />,
-      title: "Kenya Science & Engineering Fair (KSEF)2025",
-      description: "Emerged 2nd nationwide! All 4 project categories topped the Eastern Region, making Sengani the only school in the region to win a national trophy."
+      icon: <FaTrophy className="text-4xl text-galaxy-accent mb-4 animate-pulse" />,
+      title: "Alien Tech Breakthrough",
+      description: "Emerged 2nd nationwide in extraterrestrial innovation! All 4 project categories defied earthly expectations, making Sengani the cosmic pioneers of scientific exploration."
     },
     {
-      icon: <FaBook className="text-4xl text-cosmic-highlight mb-4" />,
-      title: "STEM Leadership",
-      description: "Exceptional performance in Environmental Science, Technology, Applied Technology, and Energy & Transportation categories."
+      icon: <FaBook className="text-4xl text-galaxy-highlight mb-4 animate-bounce" />,
+      title: "Intergalactic STEM Leadership",
+      description: "Exceptional performance transcending Environmental Science, Quantum Technology, Xenobiology, and Interstellar Energy categories."
     },
     {
-      icon: <FaGraduationCap className="text-4xl text-cosmic-text mb-4" />,
-      title: "Innovation Pioneers",
-      description: "Demonstrating cutting-edge research and problem-solving skills at the national level, setting new standards in scientific innovation."
+      icon: <FaGraduationCap className="text-4xl text-galaxy-text mb-4 animate-spin" />,
+      title: "Galactic Innovation Pioneers",
+      description: "Demonstrating research that challenges the boundaries of known science, setting new standards for interstellar problem-solving."
     }
   ];
 
   return (
-    <div className="container mx-auto px-4 py-12 bg-cosmic-background">
+    <div className="container mx-auto px-4 py-12 bg-galaxy-deep">
       <div className="text-center mb-12 space-y-4">
-        <h2 className="text-4xl font-bold text-cosmic-highlight mb-4 tracking-wide">
-          Cosmic Achievements
+        <h2 className="text-5xl font-bold text-galaxy-highlight mb-4 tracking-wide font-['Orbitron']">
+          Galactic Achievements
         </h2>
-        <p className="text-cosmic-text max-w-2xl mx-auto text-lg opacity-80">
-          Illuminating the path of scientific excellence at the Kenya Science & Engineering Fair 2025
+        <p className="text-galaxy-text max-w-3xl mx-auto text-xl opacity-80 font-['Chakra_Petch']">
+          Transcending earthly boundaries of scientific exploration, our students redefine the frontiers of knowledge
         </p>
-        <div className="w-full h-1 bg-cosmic-accent mx-auto mb-4" style={{maxWidth: '200px'}}></div>
+        <div className="w-full h-1 bg-galaxy-accent mx-auto mb-4 animate-pulse" style={{maxWidth: '250px'}}></div>
       </div>
 
       <div className="grid md:grid-cols-3 gap-6 mb-12">
