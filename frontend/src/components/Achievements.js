@@ -18,30 +18,32 @@ function Achievements() {
 
   const achievements = [
     {
-      icon: <FaTrophy className="text-4xl text-school-blue mb-4" />,
+      icon: <FaTrophy className="text-4xl text-cosmic-accent mb-4" />,
       title: "Kenya Science & Engineering Fair (KSEF)2025",
       description: "Emerged 2nd nationwide! All 4 project categories topped the Eastern Region, making Sengani the only school in the region to win a national trophy."
     },
     {
-      icon: <FaBook className="text-4xl text-school-green mb-4" />,
+      icon: <FaBook className="text-4xl text-cosmic-highlight mb-4" />,
       title: "STEM Leadership",
       description: "Exceptional performance in Environmental Science, Technology, Applied Technology, and Energy & Transportation categories."
     },
     {
-      icon: <FaGraduationCap className="text-4xl text-school-yellow mb-4" />,
+      icon: <FaGraduationCap className="text-4xl text-cosmic-text mb-4" />,
       title: "Innovation Pioneers",
       description: "Demonstrating cutting-edge research and problem-solving skills at the national level, setting new standards in scientific innovation."
     }
   ];
 
   return (
-    <div className="container mx-auto px-4 py-12 bg-school-background">
-      <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-school-text mb-4">Our Achievements</h2>
-        <p className="text-school-light-text max-w-2xl mx-auto">
-          Celebrating our remarkable success at the Kenya Science & Engineering Fair 2025
+    <div className="container mx-auto px-4 py-12 bg-cosmic-background">
+      <div className="text-center mb-12 space-y-4">
+        <h2 className="text-4xl font-bold text-cosmic-highlight mb-4 tracking-wide">
+          Cosmic Achievements
+        </h2>
+        <p className="text-cosmic-text max-w-2xl mx-auto text-lg opacity-80">
+          Illuminating the path of scientific excellence at the Kenya Science & Engineering Fair 2025
         </p>
-      </div>
+        <div className="w-full h-1 bg-cosmic-accent mx-auto mb-4" style={{maxWidth: '200px'}}></div>
 
       <div className="grid md:grid-cols-3 gap-6 mb-12">
         {achievements.map((achievement, index) => (

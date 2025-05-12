@@ -6,11 +6,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'school-green': '#2ecc71',     // Bright Green
-        'school-blue': '#3498db',      // Bright Blue
-        'school-yellow': '#f1c40f',    // Bright Yellow
-        'school-background': '#ecf0f1', // Light Gray Background
-        'school-text': '#2c3e50'        // Dark Blue-Gray Text
+        'cosmic-primary': '#1A237E',     // Deep Indigo
+        'cosmic-secondary': '#283593',   // Darker Indigo
+        'cosmic-accent': '#7C4DFF',      // Vibrant Purple
+        'cosmic-background': '#121212',  // Deep Space Black
+        'cosmic-surface': '#1E1E1E',     // Slightly Lighter Black
+        'cosmic-text': '#E0E0E0',        // Light Gray
+        'cosmic-highlight': '#BB86FC'    // Soft Purple Highlight
       },
       fontFamily: {
         'sans': ['Montserrat', 'system-ui', 'sans-serif'],
