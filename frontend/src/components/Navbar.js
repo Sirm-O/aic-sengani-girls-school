@@ -6,21 +6,21 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-school-blue text-white p-4">
+    <nav className="bg-galaxy-surface border-b border-galaxy-accent/20 text-galaxy-text p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-2xl font-bold">AIC Sengani Girls</Link>
+        <Link to="/" className="text-2xl font-bold text-galaxy-highlight">AIC Sengani Girls</Link>
         
         <div className="hidden md:flex space-x-6">
-          <Link to="/" className="hover:text-school-yellow">Home</Link>
-          <Link to="/about" className="hover:text-school-yellow">About</Link>
-          <li><Link to="/academics" className="hover:text-school-yellow">Academics</Link></li>
-          <li><Link to="/admissions" className="hover:text-school-yellow">Admissions</Link></li>
-          <li><Link to="/achievements" className="hover:text-school-yellow">Achievements</Link></li>
-          <li><Link to="/contact" className="hover:text-school-yellow">Contact</Link></li>
+          <Link to="/" className="hover:text-galaxy-accent transition duration-300">Home</Link>
+          <Link to="/about" className="hover:text-galaxy-accent transition duration-300">About</Link>
+          <Link to="/academics" className="hover:text-galaxy-accent transition duration-300">Academics</Link>
+          <Link to="/admissions" className="hover:text-galaxy-accent transition duration-300">Admissions</Link>
+          <Link to="/achievements" className="hover:text-galaxy-accent transition duration-300">Achievements</Link>
+          <Link to="/contact" className="hover:text-galaxy-accent transition duration-300">Contact</Link>
         </div>
 
         <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)}>
+          <button onClick={() => setIsOpen(!isOpen)} className="text-galaxy-text">
             {isOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -29,11 +29,11 @@ function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link to="/" className="block hover:bg-school-green px-3 py-2">Home</Link>
-            <Link to="/about" className="block hover:bg-school-green px-3 py-2">About</Link>
-            <Link to="/academics" className="block hover:bg-school-green px-3 py-2">Academics</Link>
-            <Link to="/admissions" className="block hover:bg-school-green px-3 py-2">Admissions</Link>
-            <Link to="/contact" className="block hover:bg-school-green px-3 py-2">Contact</Link>
+            <Link to="/" className="block hover:bg-galaxy-accent/20 px-3 py-2 rounded">Home</Link>
+            <Link to="/about" className="block hover:bg-galaxy-accent/20 px-3 py-2 rounded">About</Link>
+            <Link to="/academics" className="block hover:bg-galaxy-accent/20 px-3 py-2 rounded">Academics</Link>
+            <Link to="/admissions" className="block hover:bg-galaxy-accent/20 px-3 py-2 rounded">Admissions</Link>
+            <Link to="/contact" className="block hover:bg-galaxy-accent/20 px-3 py-2 rounded">Contact</Link>
           </div>
         </div>
       )}
