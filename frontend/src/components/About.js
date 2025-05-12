@@ -16,9 +16,13 @@ function About() {
           <img 
             src="/images/school-gallery/ksef-2025/School principal.jpg"
             alt="Dr. Margaret Mwendwa with Patron at KSEF 2025"
-            className="w-full h-96 object-cover object-center rounded-lg shadow-2xl border-4 border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 hover:scale-105"
+            className="w-full h-96 object-contain object-center rounded-lg shadow-2xl border-4 border-galaxy-accent/30 hover:border-galaxy-accent/50 transition-all duration-300 hover:scale-105 bg-galaxy-surface"
             onError={(e) => {
+              console.error('Image load error:', e);
               e.target.src = '/logo192.png';
+            }}
+            onLoad={(e) => {
+              console.log('Image loaded:', e.target.naturalWidth, 'x', e.target.naturalHeight);
             }}
           />
         </div>
