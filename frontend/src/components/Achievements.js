@@ -19,18 +19,18 @@ function Achievements() {
   const achievements = [
     {
       icon: <FaTrophy className="text-4xl text-galaxy-accent mb-4 animate-pulse" />,
-      title: "Alien Tech Breakthrough",
-      description: "Emerged 2nd nationwide in extraterrestrial innovation! All 4 project categories defied earthly expectations, making Sengani the cosmic pioneers of scientific exploration."
+      title: "National Innovation Achievement",
+      description: "Ranked 2nd nationwide in scientific innovation. Successfully competed in all 4 project categories, showcasing our school's commitment to scientific excellence."
     },
     {
       icon: <FaBook className="text-4xl text-galaxy-highlight mb-4 animate-bounce" />,
-      title: "Intergalactic STEM Leadership",
-      description: "Exceptional performance transcending Environmental Science, Quantum Technology, Xenobiology, and Interstellar Energy categories."
+      title: "STEM Leadership",
+      description: "Outstanding performance in Environmental Science, Technology, Biology, and Energy research categories."
     },
     {
       icon: <FaGraduationCap className="text-4xl text-galaxy-text mb-4 animate-spin" />,
-      title: "Galactic Innovation Pioneers",
-      description: "Demonstrating research that challenges the boundaries of known science, setting new standards for interstellar problem-solving."
+      title: "Research Innovation",
+      description: "Conducting groundbreaking research that pushes the boundaries of scientific understanding and problem-solving."
     }
   ];
 
@@ -41,7 +41,7 @@ function Achievements() {
           Galactic Achievements
         </h2>
         <p className="text-galaxy-text max-w-3xl mx-auto text-xl opacity-80 font-['Chakra_Petch']">
-          Transcending earthly boundaries of scientific exploration, our students redefine the frontiers of knowledge
+          Our students demonstrate exceptional scientific skills and innovative thinking through their research and achievements
         </p>
         <div className="w-full h-1 bg-galaxy-accent mx-auto mb-4 animate-pulse" style={{maxWidth: '250px'}}></div>
       </div>
@@ -62,8 +62,7 @@ function Achievements() {
       </div>
       <div className="mt-12 text-center">
         <p className="text-lg text-galaxy-text/80 max-w-3xl mx-auto">
-          Our commitment to academic excellence is reflected in our students' consistent performance 
-          and their ability to excel in national examinations.
+          We are dedicated to providing high-quality education that prepares students for academic success and future challenges.
         </p>
       </div>
 

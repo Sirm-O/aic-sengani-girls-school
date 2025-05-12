@@ -6,10 +6,9 @@ function About() {
       <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0 md:space-x-8">
         <div className="md:w-1/2 mb-6 md:mb-0">
           <div className="bg-galaxy-surface p-6 rounded-lg shadow-2xl border border-galaxy-accent/20 hover:border-galaxy-accent/50 transition-all duration-300 animate-pulse">
-            <p className="mb-4 text-galaxy-highlight opacity-90 text-lg tracking-wide font-['Orbitron']">Intergalactic Transmission,</p>
+            <p className="mb-4 text-galaxy-highlight opacity-90 text-lg tracking-wide font-['Orbitron']">Welcome to AIC Sengani Girls School</p>
             <p className="text-galaxy-text leading-relaxed font-['Chakra_Petch']">
-              Greetings from AIC Sengani Girls School, where we launch young minds beyond terrestrial knowledge boundaries, 
-              cultivating a generation of cosmic innovators who will redefine the frontiers of scientific exploration.
+              We are dedicated to providing high-quality education that empowers young women to become innovative leaders and critical thinkers.
             </p>
           </div>
         </div>
@@ -26,20 +25,19 @@ function About() {
       </div>
       
       <div className="mt-12 text-center">
-        <h2 className="text-5xl font-bold text-galaxy-highlight mb-6 tracking-wide font-['Orbitron'] animate-bounce">Galactic Mission Protocol</h2>
+        <h2 className="text-5xl font-bold text-galaxy-highlight mb-6 tracking-wide font-['Orbitron'] animate-bounce">Our Mission</h2>
         <p className="max-w-4xl mx-auto text-galaxy-text text-xl leading-relaxed opacity-90 font-['Chakra_Petch']">
-          At AIC Sengani Girls School, we are engineering the next generation of interstellar pioneers. 
-          Our mission transcends conventional educational paradigms, inspiring students to explore uncharted intellectual territories, 
-          innovate beyond known limitations, and lead humanity&apos;s expansion into the cosmic frontier.
+          Our mission is to provide a comprehensive, high-quality education that develops well-rounded students. 
+          We focus on academic excellence, personal growth, leadership skills, and preparing students for future challenges.
         </p>
       </div>
 
       <div className="mt-12 text-center bg-galaxy-surface p-6 rounded-lg border border-galaxy-accent/20">
-        <h3 className="text-3xl text-galaxy-highlight mb-4 font-['Orbitron'] animate-pulse">Quantum Communication Coordinates</h3>
+        <h3 className="text-3xl text-galaxy-highlight mb-4 font-['Orbitron'] animate-pulse">Contact Information</h3>
         <p className="text-galaxy-text font-['Chakra_Petch'] text-lg">
-          <strong>Quantum Transmission:</strong> (+254) 723324518<br />
-          <strong>Interstellar Relay:</strong> senganigirlsschool@gmail.com<br />
-          <strong>Terrestrial Anchor:</strong> Matungulu Sub-County, Machakos County, Kenya
+          <strong>Phone:</strong> (+254) 723324518<br />
+          <strong>Email:</strong> senganigirlsschool@gmail.com<br />
+          <strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya
         </p>
       </div>
     </div>
