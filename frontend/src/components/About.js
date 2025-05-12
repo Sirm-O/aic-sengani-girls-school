@@ -33,11 +33,14 @@ function About() {
           inspiring students to explore, innovate, and lead in the ever-expanding universe of knowledge.
         </p>
       </div>
-            <strong>Phone:</strong> (+254) 723324518<br />
-            <strong>Email:</strong> senganigirlsschool@gmail.com<br />
-            <strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya
-          </p>
-        </div>
+
+      <div className="mt-12 text-center bg-cosmic-surface p-6 rounded-lg">
+        <h3 className="text-2xl text-cosmic-highlight mb-4">Contact Information</h3>
+        <p className="text-cosmic-text">
+          <strong>Phone:</strong> (+254) 723324518<br />
+          <strong>Email:</strong> senganigirlsschool@gmail.com<br />
+          <strong>Location:</strong> Matungulu Sub-County, Machakos County, Kenya
+        </p>
       </div>
     </div>
   );
